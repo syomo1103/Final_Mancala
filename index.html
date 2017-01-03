@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+  <div id='wrapper'>
+    <header>
+      <div id="title">Mancala</div>
+      <!-- <div id="player1-message" class="messages">Player 1 Wins!</div> -->
+      <!-- <div id="player2-message" class="messages">Player 2 Wins!</div> -->
+    </header>
+    <div id="player2-div" class="players">Player 2</div>
+    <div id="player1-message" class="messages">
+      Player 1<br>Wins!<br>
+      <a href="#">Rematch?</a>
+    </div>
+    <div id="player1-div" class="players">Player 1</div>
+    <div id="player2-message" class="messages">
+      Player 2<br>Wins!<br>
+      <a href="#">Rematch?</a>
+    </div>
+      <!-- <div id="table-div"> -->
+        <table>
+          <tr>
+            <td colspan="2" id="hole14" class="bowl home-bowl">Other Home</td>
+          </tr>
+          <tr>
+            <td class="bowl other-turf" id="hole13">A</td>
+            <td class="bowl home-turf" id="hole1">B</td>
+          </tr>
+          <tr>
+            <td class="bowl other-turf" id="hole12">C</td>
+            <td class="bowl home-turf" id="hole2">D</td>
+          </tr>
+          <tr>
+            <td class="bowl other-turf" id="hole11">E</td>
+            <td class="bowl home-turf" id="hole3">F</td>
+          </tr>
+          <tr>
+            <td class="bowl other-turf" id="hole10">G</td>
+            <td class="bowl home-turf" id="hole4">H</td>
+          </tr>
+          <tr>
+            <td class="bowl other-turf" id="hole9">I</td>
+            <td class="bowl home-turf" id="hole5">J</td>
+          </tr>
+          <tr>
+            <td class="bowl other-turf" id="hole8">K</td>
+            <td class="bowl home-turf" id="hole6">L</td>
+          </tr>
+          <tr>
+            <td colspan="2" id="hole7" class="bowl home-bowl">My Home</td>
+          </tr>
+        </table>
+      <!-- </div> -->
+  </div>
+<script src="main.js"></script>
+</body>
+</html>
